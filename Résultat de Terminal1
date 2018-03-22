@@ -1,0 +1,38 @@
+Last login: Thu Mar 22 11:43:05 on ttys001
+You have mail.
+MBP-de-Karen:~ karentschanz$ cd Documents
+MBP-de-Karen:Documents karentschanz$ cd _CORS_EX
+-bash: cd: _CORS_EX: No such file or directory
+MBP-de-Karen:Documents karentschanz$ cd _COURS_EX
+MBP-de-Karen:_COURS_EX karentschanz$ cd Secu
+MBP-de-Karen:Secu karentschanz$ cd web
+MBP-de-Karen:web karentschanz$ cd nodetest
+MBP-de-Karen:nodetest karentschanz$ 
+MBP-de-Karen:nodetest karentschanz$ # Installe les modules externes # Lance le serveur
+MBP-de-Karen:nodetest karentschanz$ git clone https://github.com/CREA-Dev/SAS-TP-API_REST tp-api-rest
+Cloning into 'tp-api-rest'...
+remote: Counting objects: 16, done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 16 (delta 5), reused 15 (delta 4), pack-reused 0
+Unpacking objects: 100% (16/16), done.
+Checking connectivity... done.
+MBP-de-Karen:nodetest karentschanz$ cd tp-api-rest
+MBP-de-Karen:tp-api-rest karentschanz$ npm install
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN pratique-cours-apirest@1.0.0 No repository field.
+
+added 67 packages in 2.381s
+MBP-de-Karen:tp-api-rest karentschanz$ node server.js
+Listen on port 8080
+curl -X POST http://localhost:8080/?index=5
+
+
+
+
+
+
+
+
+
+
+
